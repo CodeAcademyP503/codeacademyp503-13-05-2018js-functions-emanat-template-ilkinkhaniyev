@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Entry</title>
+</head>
+<body>
+    <section id="entry">
+        <header class="entryHeader">
+            <button onclick="clearInput(3)">
+                Temizle
+            </button>
+            <div class="input">
+                <h5>Xahiş edirik nömrənizi daxil edin.</h5>
+                <input type="text" value="" id="entryInput">
+            </div>
+            <button  onclick="clearInput(1)">
+                <i class="fas fa-caret-left"></i>
+                Sil 
+            </button>
+        </header>
+        <content class="numbers">
+            <button onclick="addNumber(1)">1</button>
+            <button onclick="addNumber(2)">2</button>
+            <button onclick="addNumber(3)">3</button>
+            <button onclick="addNumber(4)">4</button>
+            <button onclick="addNumber(5)">5</button>
+            <button onclick="addNumber(6)">6</button>
+            <button onclick="addNumber(7)">7</button>
+            <button onclick="addNumber(8)">8</button>
+            <button onclick="addNumber(9)">9</button>
+            <button onclick="addNumber(0)">0</button>
+        </content>
+        <footer class="entryFooter">
+            <button id="back" onclick="changeUrl('mobile.html')">
+                <i class="fas fa-caret-left"></i>
+                Geri
+            </button>
+            <button id="mainPage" onclick="changeUrl('index.html')">
+                <span>Ana <br> səhifə</span>
+            </button>
+            <button id="forward" onclick="goForward()" style="visibility: hidden;">
+                İrəli
+                <i class="fas fa-caret-right"></i>
+            </button>
+        </footer>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

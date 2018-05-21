@@ -1,0 +1,429 @@
+body {
+  margin: 0px auto;
+  background-color: #a1a0a0;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Container button {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 375px;
+  height: 200px;
+  margin: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+.Container #communalPayments {
+  background-color: #4e4efc;
+  color: white;
+}
+.Container #mobileOperators {
+  background-color: #f8c027;
+  color: white;
+}
+.Container #bankServices {
+  background-color: #501494;
+  color: white;
+}
+.Container #government {
+  background-color: #c714a0;
+  color: white;
+}
+.Container #tv {
+  background-color: #28940d;
+  color: white;
+}
+.Container #internet {
+  background-color: #eb5b08;
+  color: white;
+}
+.Container #paymentCards {
+  background-color: #5aadf0;
+  color: white;
+}
+.Container #games {
+  background-color: #ac2a2a;
+  color: white;
+}
+.Container #eWallet {
+  background-color: #bd8715;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0px auto;
+    background-color: #a1a0a0;
+  }
+
+  .Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Container button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 175px;
+    height: 100px;
+    margin: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+  }
+  .Container #communalPayments {
+    background-color: #4e4efc;
+  }
+  .Container #mobileOperators {
+    background-color: #f8c027;
+  }
+  .Container #bankServices {
+    background-color: #501494;
+  }
+  .Container #government {
+    background-color: #c714a0;
+  }
+  .Container #tv {
+    background-color: #28940d;
+  }
+  .Container #internet {
+    background-color: #eb5b08;
+  }
+  .Container #paymentCards {
+    background-color: #5aadf0;
+  }
+  .Container #games {
+    background-color: #ac2a2a;
+  }
+  .Container #eWallet {
+    background-color: #bd8715;
+  }
+}
+body {
+  margin: 0px auto;
+  background-color: #a1a0a0;
+}
+
+header {
+  margin: 10px;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#operators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#operators button {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 320px;
+  height: 320px;
+  margin: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+#operators #azercell {
+  position: relative;
+}
+#operators #azercell img {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+}
+#operators #bakcell {
+  position: relative;
+}
+#operators #bakcell img {
+  position: absolute;
+  top: 125px;
+  left: 0px;
+  width: 100%;
+}
+#operators #nar {
+  position: relative;
+}
+#operators #nar img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0px auto;
+    background-color: #a1a0a0;
+  }
+
+  header {
+    margin: 10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #operators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #operators button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 320px;
+    height: 320px;
+    margin: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+  }
+  #operators #azercell {
+    position: relative;
+  }
+  #operators #azercell img {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+  }
+  #operators #bakcell {
+    position: relative;
+  }
+  #operators #bakcell img {
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    width: 100%;
+  }
+  #operators #nar {
+    position: relative;
+  }
+  #operators #nar img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+}
+body {
+  margin: 0px auto;
+  background-color: #a1a0a0;
+}
+
+#entry {
+  display: grid;
+  grid-template-columns: 620px;
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+}
+#entry .entryHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#entry .entryHeader .input h5 {
+  margin: 0px;
+  font-size: .5em;
+  text-align: center;
+}
+#entry .entryHeader .input input {
+  margin: 5px;
+  width: 240px;
+  height: 50px;
+  font-size: .8em;
+  border: 5px solid #1616e0;
+  border-radius: 10px;
+  outline: none;
+}
+#entry .entryHeader button {
+  width: 150px;
+  height: 82px;
+  margin: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: .7em;
+  line-height: 82px;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom right, red, yellow);
+}
+#entry .entryHeader button i {
+  font-size: 30px;
+  color: white;
+  border-right: 3px solid white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+#entry .numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#entry .numbers button {
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #1616e0;
+  padding: 30px 20px;
+  margin: 10px 20px;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+#entry .entryFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#entry .entryFooter button {
+  width: 170px;
+  height: 82px;
+  margin: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 30px;
+  background: linear-gradient(to bottom right, red, yellow);
+}
+#entry .entryFooter button:last-child i {
+  border: none;
+  border-left: 3px solid white;
+  margin-left: 20px;
+}
+#entry .entryFooter button i {
+  font-size: 30px;
+  color: white;
+  border-right: 3px solid white;
+  padding: 5px 10px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 0px auto;
+    background-color: #a1a0a0;
+  }
+
+  #entry {
+    width: 620px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+  }
+  #entry .entryHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #entry .entryHeader .input h5 {
+    margin: 0px;
+    font-size: .5em;
+    text-align: center;
+  }
+  #entry .entryHeader .input input {
+    margin: 5px;
+    width: 240px;
+    height: 50px;
+    font-size: .8em;
+    border: 5px solid #1616e0;
+    border-radius: 10px;
+    outline: none;
+  }
+  #entry .entryHeader button {
+    width: 150px;
+    height: 82px;
+    margin: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: .7em;
+    line-height: 82px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom right, red, yellow);
+  }
+  #entry .entryHeader button i {
+    font-size: 30px;
+    color: white;
+    border-right: 3px solid white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  #entry .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #entry .numbers button {
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1616e0;
+    padding: 40px 40px;
+    margin: 20px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  #entry .entryFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #entry .entryFooter button {
+    width: 170px;
+    height: 82px;
+    margin: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+    background: linear-gradient(to bottom right, red, yellow);
+  }
+  #entry .entryFooter button:last-child i {
+    border: none;
+    border-left: 3px solid white;
+    margin-left: 20px;
+  }
+  #entry .entryFooter button i {
+    font-size: 30px;
+    color: white;
+    border-right: 3px solid white;
+    padding: 5px 10px;
+    margin-right: 20px;
+    text-align: left;
+  }
+}

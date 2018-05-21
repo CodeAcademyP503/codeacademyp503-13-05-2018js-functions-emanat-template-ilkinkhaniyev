@@ -1,0 +1,110 @@
+body{
+    margin: 0px auto;
+    background-color: rgb(161, 160, 160);
+}
+header{
+    margin: 10px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+#operators{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    button{
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: center;
+        line-height: 30px;
+    }
+    #azercell{
+        position: relative;
+        img{
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            width: 100%;
+        }
+    }
+    #bakcell{
+        position: relative;
+        img{
+            position: absolute;
+            top: 125px;
+            left: 0px;
+            width: 100%;
+        }
+    }
+    #nar{
+        position: relative;
+        img{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 650px){
+    body{
+        margin: 0px auto;
+        background-color: rgb(161, 160, 160);
+    }
+    header{
+        margin: 10px;
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+    }
+    #operators{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        button{
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            width: 320px;
+            height: 320px;
+            margin: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-align: center;
+            line-height: 30px;
+        }
+        #azercell{
+            position: relative;
+            img{
+                position: absolute;
+                top: 40px;
+                left: 0px;
+                width: 100%;
+            }
+        }
+        #bakcell{
+            position: relative;
+            img{
+                position: absolute;
+                top: 125px;
+                left: 0px;
+                width: 100%;
+            }
+        }
+        #nar{
+            position: relative;
+            img{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+            }
+        }
+    }
+}
